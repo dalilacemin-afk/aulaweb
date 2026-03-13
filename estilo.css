@@ -1,6 +1,97 @@
-/*Estilização da Fonte*/
 body{
-    color: rgba(0, 0, 255, 0.801);
-    font-family: 'Times New Roman', Times, serif
-    font size: 28;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+/*Estilizacao do HEADER*/
+header{
+    background-color: rgb(78,9,116)
+}
+/*Estilizacao do LOGO*/
+.logo{
+    width: 25%;
+    padding: 10px 0 20px 1%;
+    /* padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 2%; */
+}
+/*Estilizacao do MENU*/
+nav {
+    color: rgb(245, 245, 245);
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 35px;
+    font-family: cursive; 
+    }
+nav li{
+        display: inline; 
+        margin-right: 40px;
+    }
+.divHeader{
+        position: relative;
+    }
+/*Estilizacao do BANNER*/
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    }
+/*Estilizacao da sessao SOBRE NÓS*/
+.sobre_nos{
+    width: 60%;
+    text-align: justify;
+    line-height: 2.5;/*espaçamento entre linhas*/
+    margin-left: 20;
+    font-family: cursive;
+}
+.img_sobre_nos{
+    WIDTH: 30%;
+    float: left;
+    margin-right: 20px;
+}
+.titulo_sobre_nos{
+     clear: left;
+     
+}
+
+.div_nossosprodutos{
+    width: 70%;
+    margin-left: 30%;
+    display: flex;
+}
+.nossos_servicos{
+    list-style: none;
+    line-height: 4;
+}
+.nossos_servicos li:before{
+    content:"🦷";
+}
+.img.nossos
+
+/*Estilizacao da sessao NOSSO ESTABELECIMENTO*/
+.mapa{
+    text-align:center;
+    background: linear-gradient(#FFFF,#053470)
+}
+.titulos{
+    text-align: center;
+    color: navy;
+}
+/*sESSAO vIDEO*/
+.VIDEO{
+    text-align: center;
+    background: linear-gradient(rgb(180, 111, 180))  ;
+}
+/*Estilização do FOOTER*/
+footer{
+    background: url("img/fundorodape.png");
+    padding: 30px 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgb(78,9,116)
+   }
+   .logo_footer{
+    width: 10%
+   }
